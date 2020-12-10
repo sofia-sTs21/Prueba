@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Guía Completa de Sortable JS</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-6 my-5">
+				<h2 class="mb-3">Lista de Productos</h2>
+
+				<div class="list-group" id="tareas">
+
+					<div class="list-group-item" data-identificador="1">
+						<h5><i class="fas fa-grip-lines mr-2"></i> Aceite Girasol</h5>
+						<div class="foto">
+							<img src="img/aceite girasol.JPG" alt="">
+						</div>
+						<p class="mb-0">Galon 3.000ml</p>
+					</div>
+					
+
+					<div class="list-group-item" data-identificador="2">
+						<h5><i class="fas fa-grip-lines mr-2"></i> Arroz Roa</h5>
+						<div class="foto">
+							<img src="img/arroz roa.JPG" alt="">
+						</div>
+						<p class="mb-0">Libra 500g</p>
+					</div>
+
+					<div class="list-group-item" data-identificador="3">
+						<h5><i class="fas fa-grip-lines mr-2"></i> Azucar Incauca</h5>
+						<div class="foto">
+							<img src="img/azucar incauca.JPG" alt="">
+						</div>
+						<p class="mb-0">Libra 500g</p>
+					</div>
+
+					<div class="list-group-item" data-identificador="4">
+						<h5><i class="fas fa-grip-lines mr-2"></i> Cafe Aguila Roja</h5>
+						<div class="foto">
+							<img src="img/cafe aguila roja.JPG" alt="">
+						</div>
+						<p class="mb-0">Libra 500g</p>
+					</div>
+
+					<div class="list-group-item" data-identificador="5">
+						<h5><i class="fas fa-grip-lines mr-2"></i> Sal Refisal</h5>
+						<div class="foto">
+							<img src="img/sal refisal.JPG" alt="">
+						</div>
+						<p class="mb-0">Libra 500g</p>
+					</div>
+
+				</div>
+				<button class="btn btn-sm btn-primary mt-3" id="toggle">Bloquear</button>
+			</div>
+
+			<div class="col-6 my-5">
+				<h2 class="mb-3">Lista de Productos Elegidos</h2>
+
+				<div class="list-group" id="tareasCompletadas">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/Sortable.min.js"></script>
+	<script src="js/options.js"></script>
+</body>
+</html>
